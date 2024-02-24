@@ -71,3 +71,5 @@ def insert_vacancy_data(cur: typing.Any, vacancies: list[tuple]) -> None:
         VALUES (%s, %s, %s, %s, %s, %s, %s)""",
             vacancy,
         )
+
+

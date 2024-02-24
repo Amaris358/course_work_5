@@ -20,3 +20,5 @@ class HeadHunterAPI:
             return company_vacancy
         except Exception as error:
             raise Exception(f"Ошибка {error}")
+
+

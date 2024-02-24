@@ -72,4 +72,7 @@ class DBManager:
         for row in rows:
             exit_data.append(list(row))
         return exit_data
+
+
+
     
